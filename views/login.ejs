@@ -1,0 +1,18 @@
+<html>
+    <head>
+        <link href="style.css" rel="stylesheet">
+    </head>
+    <body>
+    <div id="form-container">
+        <div id="form-container">
+            <form method="post" action="/login">
+             <h1 align="center"><u>Login Now</u></h1>
+             <input type="email" name="email" placeholder="email..."/>
+             <input type="password" name="password" placeholder="password..."/>
+             <h3> <%=locals.message%> </h3>
+             <button type="submit" id="button">Submit</button>
+            </form>
+         </div>
+    </div>
+    </body>
+</html>

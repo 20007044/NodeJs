@@ -1,0 +1,43 @@
+*
+{
+    margin:0;
+    padding:0;
+}
+body
+{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin-top:5%;
+    background-color:peachpuff;
+}
+#form-container
+{
+    background:white;
+    display:flex;
+    height:80vh;
+    width:100vh;
+    justify-content:center;
+    align-items:center;
+    
+}
+#form-container form
+{
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+}
+form input
+{
+    width:300;
+    height:5vh;
+    margin-top:20px;
+}
+#button
+{
+    margin-top:20px;
+    background-color: blueviolet;
+    height:8vh;
+    width:100px;
+}
